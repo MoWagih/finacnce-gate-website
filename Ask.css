@@ -1,0 +1,630 @@
+body {
+    background: none;
+    background-color: #252525;
+}
+
+.navbar {
+    background-color: #1c1c1c;
+}
+
+@media (min-width: 1280px) and (max-width: 1920) {
+    .head .title {
+        margin-top: 75px;
+        background: url(/Section1-2.png);
+        /* background-size: 100% 50%; */
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 20px;
+        color: white;
+        font-weight: 400;
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    .title h1 {
+        font-weight: 400;
+        margin: 40px auto;
+    }
+    
+    .meta {
+        width: 50%;
+        margin: 20px auto;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 16px;
+        align-items: center;
+    }
+    
+    .meta a {
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+    
+    #contact-us {
+        /* background-color: cadetblue; */
+        width: 90%;
+        margin: auto;
+    }
+    
+    #contact-us h2 {
+        margin: 20px 30px;
+        font-size: 42px;
+        font-weight: 400;
+        /* background-color: azure; */
+        padding: 10px;
+        color: #37c455;
+    }
+    
+    #founder-container {
+        /* background-color: brown; */
+        width: 95%;
+        margin: auto;
+        margin-bottom: 30px;
+        padding: 20px;
+        border-radius: 15px;
+        background-color: #1a1a1a;
+        box-shadow: 4px 4px 11px rgba(0, 0, 0, 0.2);
+    }
+    
+    .form1 {
+        display: flex;
+        width: 100%;
+        margin: 23px auto;
+        justify-content: space-around;
+    }
+    
+    .form1 input {
+        background-color: #252525;
+        color: white;
+        border: none;
+        padding: 13px 70px;
+        border-radius: 10px;
+        width: 100%;
+        font-family: 'Emad-Diana';
+        outline: none;
+    }
+    
+    #name {
+        width: 45%;
+    }
+    
+    #email {
+        width: 45%;
+    }
+    
+    .form2 {
+        display: flex;
+        width: 100%;
+        margin: 23px auto;
+        justify-content: space-around;
+    }
+    
+    .form2 input {
+        background-color: #252525;
+        color: white;
+        border: none;
+        padding: 13px 70px;
+        border-radius: 12px;
+        width: 100%;
+        font-family: 'Emad-Diana';
+        outline: none;
+    }
+    
+    .form-2-subject {
+        width: 95%;
+    }
+    
+    .form3 {
+        display: flex;
+        width: 95%;
+        margin: 23px auto;
+        justify-content: space-around;
+        outline: none;
+    }
+    
+    .form3 input {
+        background-color: #252525;
+        color: white;
+        border: none;
+        padding: 13px 0px;
+        border-radius: 12px;
+        width: 100%;
+        font-family: 'Emad-Diana';
+        outline: none;
+    }
+    
+    .form-3-subject {
+        background-color: #252525;
+        border: none;
+        padding: 50px 70px;
+        border-radius: 12px;
+        width: 100%;
+        outline: none;
+    }
+    
+    #button {
+        width: 90%;
+        /* background-color: aqua; */
+        margin: 30px 50px 50px;
+        padding: 35px 35px;
+        direction: ltr;
+    }
+    
+    #button button {
+        background-color: #1a1a1a;
+        box-shadow: 4px 4px 11px rgba(0, 0, 0, 0.2);
+        color: antiquewhite;
+        padding: 4px 55px;
+        font-size: 18px;
+        font-family: 'emad-diana';
+        border-radius: 9px;
+        border: none;
+    }
+    
+  }
+
+.head .title {
+    margin-top: 75px;
+    background: url(/Section1-2.png);
+    /* background-size: 100% 50%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    font-size: 25px;
+}
+
+.title h1 {
+    font-weight: 400;
+    margin: 40px auto;
+}
+
+.meta {
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+    align-items: center;
+}
+
+.meta a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+#contact-us {
+    /* background-color: cadetblue; */
+    width: 90%;
+    margin: auto;
+}
+
+#contact-us h2 {
+    margin: 20px 30px;
+    font-size: 42px;
+    font-weight: 400;
+    /* background-color: azure; */
+    padding: 10px;
+    color: #37c455;
+}
+
+#founder-container {
+    /* background-color: brown; */
+    width: 95%;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #1a1a1a;
+    box-shadow: 4px 4px 11px rgba(0, 0, 0, 0.2);
+}
+
+.form1 {
+    display: flex;
+    width: 100%;
+    margin: 23px auto;
+    justify-content: space-around;
+}
+
+.form1 input {
+    background-color: #252525;
+    color: white;
+    border: none;
+    padding: 13px 70px;
+    border-radius: 10px;
+    width: 100%;
+    font-family: 'Emad-Diana';
+    outline: none;
+}
+
+#name {
+    width: 45%;
+}
+
+#email {
+    width: 45%;
+}
+
+.form2 {
+    display: flex;
+    width: 100%;
+    margin: 23px auto;
+    justify-content: space-around;
+}
+
+.form2 input {
+    background-color: #252525;
+    color: white;
+    border: none;
+    padding: 13px 70px;
+    border-radius: 12px;
+    width: 100%;
+    font-family: 'Emad-Diana';
+    outline: none;
+}
+
+.form-2-subject {
+    width: 95%;
+}
+
+.form3 {
+    display: flex;
+    width: 95%;
+    margin: 23px auto;
+    justify-content: space-around;
+    outline: none;
+}
+
+.form3 input {
+    background-color: #252525;
+    color: white;
+    border: none;
+    padding: 13px 0px;
+    border-radius: 12px;
+    width: 100%;
+    font-family: 'Emad-Diana';
+    outline: none;
+}
+
+.form-3-subject {
+    background-color: #252525;
+    border: none;
+    padding: 50px 70px;
+    border-radius: 12px;
+    width: 100%;
+    outline: none;
+}
+
+#button {
+    width: 90%;
+    /* background-color: aqua; */
+    margin: 30px 50px 50px;
+    padding: 35px 35px;
+    direction: ltr;
+}
+
+#button button {
+    background-color: #1a1a1a;
+    box-shadow: 4px 4px 11px rgba(0, 0, 0, 0.2);
+    color: antiquewhite;
+    padding: 4px 55px;
+    font-size: 18px;
+    font-family: 'emad-diana';
+    border-radius: 9px;
+    border: none;
+}
+
+@media (min-width: 601px) and (max-width: 1280) {
+    .head .title {
+        margin-top: 75px;
+        background: url(/Section1-2.png);
+        /* background-size: 100% 50%; */
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 20px;
+        color: white;
+        font-weight: 400;
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    .title h1 {
+        font-weight: 400;
+        margin: 40px auto;
+    }
+    
+    .meta {
+        width: 50%;
+        margin: 20px auto;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 16px;
+        align-items: center;
+    }
+    
+    .meta a {
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+    
+    #contact-us {
+        /* background-color: cadetblue; */
+        width: 90%;
+        margin: auto;
+    }
+    
+    #contact-us h2 {
+        margin: 20px 30px;
+        font-size: 42px;
+        font-weight: 400;
+        /* background-color: azure; */
+        padding: 10px;
+        color: #37c455;
+    }
+    
+    #founder-container {
+        /* background-color: brown; */
+        width: 95%;
+        margin: auto;
+        margin-bottom: 30px;
+        padding: 20px;
+        border-radius: 15px;
+        background-color: #1a1a1a;
+        box-shadow: 4px 4px 11px rgba(0, 0, 0, 0.2);
+    }
+    
+    .form1 {
+        display: flex;
+        width: 100%;
+        margin: 23px auto;
+        justify-content: space-around;
+    }
+    
+    .form1 input {
+        background-color: #252525;
+        color: white;
+        border: none;
+        padding: 13px 70px;
+        border-radius: 10px;
+        width: 100%;
+        font-family: 'Emad-Diana';
+        outline: none;
+    }
+    
+    #name {
+        width: 45%;
+    }
+    
+    #email {
+        width: 45%;
+    }
+    
+    .form2 {
+        display: flex;
+        width: 100%;
+        margin: 23px auto;
+        justify-content: space-around;
+    }
+    
+    .form2 input {
+        background-color: #252525;
+        color: white;
+        border: none;
+        padding: 13px 70px;
+        border-radius: 12px;
+        width: 100%;
+        font-family: 'Emad-Diana';
+        outline: none;
+    }
+    
+    .form-2-subject {
+        width: 95%;
+    }
+    
+    .form3 {
+        display: flex;
+        width: 95%;
+        margin: 23px auto;
+        justify-content: space-around;
+        outline: none;
+    }
+    
+    .form3 input {
+        background-color: #252525;
+        color: white;
+        border: none;
+        padding: 13px 0px;
+        border-radius: 12px;
+        width: 100%;
+        font-family: 'Emad-Diana';
+        outline: none;
+    }
+    
+    .form-3-subject {
+        background-color: #252525;
+        border: none;
+        padding: 50px 70px;
+        border-radius: 12px;
+        width: 100%;
+        outline: none;
+    }
+    
+    #button {
+        width: 90%;
+        /* background-color: aqua; */
+        margin: 30px 50px 50px;
+        padding: 35px 35px;
+        direction: ltr;
+    }
+    
+    #button button {
+        background-color: #1a1a1a;
+        box-shadow: 4px 4px 11px rgba(0, 0, 0, 0.2);
+        color: antiquewhite;
+        padding: 4px 55px;
+        font-size: 18px;
+        font-family: 'emad-diana';
+        border-radius: 9px;
+        border: none;
+    }
+    
+  }
+
+.head .title {
+    margin-top: 75px;
+    background: url(/Section1-2.png);
+    /* background-size: 100% 50%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    font-size: 25px;
+}
+
+.title h1 {
+    font-weight: 400;
+    margin: 40px auto;
+}
+
+.meta {
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+    align-items: center;
+}
+
+.meta a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+#contact-us {
+    /* background-color: cadetblue; */
+    width: 90%;
+    margin: auto;
+}
+
+#contact-us h2 {
+    margin: 20px 30px;
+    font-size: 42px;
+    font-weight: 400;
+    /* background-color: azure; */
+    padding: 10px;
+    color: #37c455;
+}
+
+#founder-container {
+    /* background-color: brown; */
+    width: 95%;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #1a1a1a;
+    box-shadow: 4px 4px 11px rgba(0, 0, 0, 0.2);
+}
+
+.form1 {
+    display: flex;
+    width: 100%;
+    margin: 23px auto;
+    justify-content: space-around;
+}
+
+.form1 input {
+    background-color: #252525;
+    color: white;
+    border: none;
+    padding: 13px 70px;
+    border-radius: 10px;
+    width: 100%;
+    font-family: 'Emad-Diana';
+    outline: none;
+}
+
+#name {
+    width: 45%;
+}
+
+#email {
+    width: 45%;
+}
+
+.form2 {
+    display: flex;
+    width: 100%;
+    margin: 23px auto;
+    justify-content: space-around;
+}
+
+.form2 input {
+    background-color: #252525;
+    color: white;
+    border: none;
+    padding: 13px 70px;
+    border-radius: 12px;
+    width: 100%;
+    font-family: 'Emad-Diana';
+    outline: none;
+}
+
+.form-2-subject {
+    width: 95%;
+}
+
+.form3 {
+    display: flex;
+    width: 95%;
+    margin: 23px auto;
+    justify-content: space-around;
+    outline: none;
+}
+
+.form3 input {
+    background-color: #252525;
+    color: white;
+    border: none;
+    padding: 13px 0px;
+    border-radius: 12px;
+    width: 100%;
+    font-family: 'Emad-Diana';
+    outline: none;
+}
+
+.form-3-subject {
+    background-color: #252525;
+    border: none;
+    padding: 50px 70px;
+    border-radius: 12px;
+    width: 100%;
+    outline: none;
+}
+
+#button {
+    width: 90%;
+    /* background-color: aqua; */
+    margin: 30px 50px 50px;
+    padding: 35px 35px;
+    direction: ltr;
+}
+
+#button button {
+    background-color: #1a1a1a;
+    box-shadow: 4px 4px 11px rgba(0, 0, 0, 0.2);
+    color: antiquewhite;
+    padding: 4px 55px;
+    font-size: 18px;
+    font-family: 'emad-diana';
+    border-radius: 9px;
+    border: none;
+}
