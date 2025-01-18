@@ -1,0 +1,17 @@
+.service-header {
+    background-image: url(../img/service-header.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 4px 37px 0px #00000026;
+}
+
+
+.headers-title h1 {
+    background: linear-gradient(112deg, rgba(41,178,70,1) 0%, rgba(46,222,84,1) 100%);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+
+.section-five {
+    padding: 140px 0px !important;
+}

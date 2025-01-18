@@ -1,0 +1,124 @@
+.service-header {
+    background-image: url(../img/service-header.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 4px 37px 0px #00000026;
+}
+
+
+.headers-title h1 {
+    background: linear-gradient(112deg, rgba(41,178,70,1) 0%, rgba(46,222,84,1) 100%);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+
+form {
+    background-color: rgb(36, 36, 36);
+}
+
+.form h2 {
+    background: linear-gradient(112deg, rgba(41,178,70,1) 0%, rgba(46,222,84,1) 100%);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+
+.form p {
+    text-align: justify;
+}
+
+input,
+textarea {
+    background-color: rgb(63, 63, 63);
+    outline: none;
+    accent-color: green;
+}
+
+label {
+    color: rgb(214, 214, 214);
+}
+
+.check-box {
+    width: 50%;
+}
+
+::placeholder {
+    color: rgb(214, 214, 214);
+    opacity: 1; /* Firefox */
+  }
+
+  @media screen and (max-width: 767px) {
+    .form {
+        flex-direction: column;
+        gap: 30px !important;
+        padding: 10px !important;
+    }
+
+    .form-titles {
+        width: 100%;
+        gap: 28px !important;
+    }
+
+    .form-titles p {
+        width: 100%;
+    }
+
+    form {
+        width: 100% !important;
+    }
+
+    .name-input {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .name-input input {
+        width: 100%;
+    }
+
+    .ask-type {
+        flex-wrap: wrap;
+        width: 100% !important;
+    }
+
+    .check-box {
+        width: 50%;
+    }
+    
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .form {
+        flex-direction: column;
+        gap: 30px !important;
+        padding: 10px !important;
+    }
+
+    .form-titles {
+        width: 100%;
+        gap: 28px !important;
+    }
+
+    .form-titles p {
+        width: 100%;
+    }
+
+    form {
+        width: 100% !important;
+    }
+
+    .name-input {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .name-input input {
+        width: 100%;
+    }
+
+    .ask-type {
+        flex-wrap: wrap;
+        width: 100% !important;
+    }
+    
+  }
+
