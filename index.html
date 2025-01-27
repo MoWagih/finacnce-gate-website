@@ -9,12 +9,13 @@
     <link rel="icon" href="/img/Fav.png" type="image/x-icon">
 </head>
 <body>
+<!-- temp link -->
     
-   <main class=" d-flex flex-column gap-3">
+   <main class="d-flex flex-column gap-3">
     <nav class="d-flex justify-content-center rounded-bottom">
         <div class="nav-container d-flex justify-content-between align-items-center">
             <div class="logo col-3">
-                <a href="./index.html"><img src="./assets/img/Logo.png" alt="finance-gate-logo" class="img-fluid"></a>
+                <a href="./index.html"><img src="./assets/img/Logo.png" alt="finance-gate-logo" class="w-100"></a>
             </div>
             <div class="links col-7 d-flex justify-content-center align-items-center">
                 <ul class="col-12 d-flex justify-content-between align-items-center list-unstyled text-white">
@@ -25,28 +26,31 @@
                 </ul>
             </div>
             <div class="burger-menu d-none" >
-                <img width="80%" src="./assets/img/Vector.png" alt="burger-menu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive">
+                <img width="60%" src="./assets/img/Vector.png" alt="burger-menu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                <!-- fuul -->
-                <div class="offcanvas-lg offcanvas-end burger-menu-offcanvas" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
-               <!-- header -->
-                    <div class="offcanvas-header">
-                    <h5 class="offcanvas-title p-4 text-white" id="offcanvasResponsiveLabel">القائمة الرئيسية</h5>
+               <div class="burger-menu-side offcanvas offcanvas-end pt-3 d-flex flex-column gap-3 text-white" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                
+                <div class="offcanvas-header d-flex justify-content-between p-3">
+                    <h5>القائمة الرئيسية</h5>
+                  <button type="button" class="border-0 bg-transparent" data-bs-dismiss="offcanvas" aria-label="Close"><img src="./assets/img/cancel.png"  alt="cancel-icon"></button>
                 </div>
-               <!-- body -->
-                <div class="offcanvas-body">
-                    <ul class="col-12 d-flex justify-content-between gap-4 p-4 flex-column list-unstyled">
+               
+                <div class="offcanvas-body p-3 ">
+                    <ul class="col-12 d-flex flex-column gap-3 list-unstyled text-white">
                         <li><a href="./index.html">الصفحة الرئيسية</a></li>
                         <li><a href="./pages/services.html">الخدمات</a></li>
                         <li><a href="./pages/about-us.html">من نحن</a></li>
                         <li><a href="./pages/Ask.html">تواصل معنا</a></li>
                     </ul>
                 </div>
-                </div>
+              </div>
            <!--  -->
            
             </div>
         </div>
     </nav>
+
+
     <div class="section-one col-12 ps-0 pe-0 pt-5 pb-5 d-flex flex-column rounded">
         <div class="titles-container col-7 p-5 d-flex justify-content-center">
           <div class="titles d-flex flex-column col-12 gap-4 p-5 rounded text-white" >
@@ -76,7 +80,7 @@
         </div>
     </div>
    
-    <div class="section-three col-12 ">
+    <!-- <div class="section-three col-12 ">
         <h2 class="text-white">لماذا تختار البوابة المالية؟</h2>
         <div class="features col-12 d-flex pt-5 pb-5">
           
@@ -105,7 +109,7 @@
             </div>
             
         </div>
-    </div>
+    </div> -->
 
     <div class="section-four col-12 ">
         <h2 class="text-white">خدماتنا</h2>
@@ -136,6 +140,13 @@
                 <img class="img-fluid rounded" src="./assets/img/founder.png" alt="founder">
             </div>            
         </div>
+    </div>
+
+    <div class="temp-links col-12 bg-danger d-flex justify-content-center gap-5 p-3">
+        <a href="./pages/pricing.html">pricing</a>
+        <a href="./pages/our-blog.html">Our Blog</a>
+        <a href="./pages/blog-single.html">Single Blog</a>
+        <a href="./pages/our-team.html">Our Team</a>
     </div>
 
     <footer class="col-12 d-flex flex-column gap-2 pt-2 pb-2 text-white rounded-top">
