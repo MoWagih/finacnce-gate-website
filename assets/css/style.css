@@ -302,12 +302,8 @@ a {
     color: rgb(221, 221, 221);
 }
 
-@media screen and (min-width: 320px) and (max-width: 500px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     
-    .section-two {
-        padding-top: 45px !important;
-        background-color: red;
-    }
 
     .section-two .two-titles {
         text-align: center;
@@ -319,13 +315,18 @@ a {
     }
 
     .section-two p {
-        font-size: 11px;
+        font-size: 13px;
         line-height: 25px;
         padding-bottom: 15px !important;
     }
     .two-container {
+        padding: 10px !important;
         flex-direction: column;
         gap: 32px !important;
+    }
+
+    .two-container p {
+        line-height: 28px;
     }
 
     .two-titles {
@@ -343,39 +344,7 @@ a {
         width: 85%;
     }
 }
-    
-@media screen and (min-width: 501px) and (max-width: 767px) {
-    .section-two {
-        padding: 30px 0px !important;
-    }
 
-    .two-container {
-        flex-direction: column;
-        gap: 32px !important;
-    }
-
-    .two-titles {
-        width: 100%;
-        order: 1;
-        text-align: center;
-    }
-
-    .section-two h2 {
-        font-size: 16px;
-        padding-bottom: 14px !important;
-    }
-
-    .section-two p {
-        font-size: 11px;
-        line-height: 25px;
-        padding-bottom: 15px !important;
-    }
-
-    .vertical-logo {
-        order: 0;
-    }
-    
-}
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .two-titles h2 {
