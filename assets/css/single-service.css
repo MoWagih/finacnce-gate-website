@@ -1,9 +1,40 @@
-.left-side {
+
+
+.tags {
+    background-color: rgb(31, 31, 31);
     position: sticky;
-    left: 0;
+    top: 25px !important;
+    box-shadow: 0px 4px 37px 0px #00000026;
+}
+
+.service-img {
+    box-shadow: 0px 4px 37px 0px #00000026;
+}
+
+.service-content {
+    background-color: rgb(31, 31, 31);
+    box-shadow: 0px 4px 37px 0px #00000026;
+}
+
+
+.service-content h2 {
+    color: rgb(5, 175, 5);        
+}
+
+.service-tag {
+    background: rgb(12,136,7);
+    background: linear-gradient(9deg, rgba(12,136,7,1) 0%, rgba(0,212,39,1) 100%);
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+    
+    .meta {
+        font-size: 13px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    
     .service-container {
         flex-direction: column;
         width: 100%;
@@ -13,6 +44,8 @@
 
     .right-side {
         width: 100%;
+        padding: 0 !important;
+        gap: 20px !important;
     }
 
     .service-img {
@@ -21,8 +54,16 @@
 
     .service-content {
         text-align: justify;
-        padding: 24px 5px !important;
-        font-size: 12px;
+        padding: 22px 10px !important;
+    }
+
+    .service-content h2 {
+        font-size: 22px;
+    }
+
+    .service-content p {
+        line-height: 24px !important;
+        font-size: 13px;
     }
 
     .left-side {
@@ -30,6 +71,17 @@
        
     }
 
+    .footer-top {
+        padding: 14px !important;
+    }
+
+    .footer-top p {
+        font-size: 12px;
+    }
+
+    .list ul li a {
+        font-size: 12px !important
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -41,6 +93,7 @@
     }
 
     .right-side {
+        padding: 0px !important;
         width: 100%;
     }
 
@@ -50,8 +103,12 @@
 
     .service-content {
         text-align: justify;
-        padding: 24px 5px !important;
+        padding: 32px 5px 0px !important;
         font-size: 16px;
+    }
+
+    .service-content p {
+        line-height: 28px;
     }
 
     .left-side {

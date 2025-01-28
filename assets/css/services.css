@@ -37,10 +37,23 @@ single-feature {
     background-position: center;
 }
 
+.features-titles p {
+    line-height: 32px;
+}
+
+.single-feature {
+    background: rgb(48,48,48);
+    background: linear-gradient(145deg, rgba(48,48,48,0.2777485994397759) 0%, rgba(0,0,0,1) 100%);
+    box-shadow: 0px 4px 37px 0px #00000026;
+}
+
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
-    .main-service-container {
-        padding: 10px !important;
+    .meta {
+        font-size: 13px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .cards-container {
@@ -56,7 +69,20 @@ single-feature {
 
     }
 
+    .footer-top {
+        padding: 14px !important;
+    }
+
+    .footer-top p {
+        font-size: 12px;
+    }
+
+    .list ul li a {
+        font-size: 12px !important
+    }
+
 }
+
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
@@ -64,14 +90,11 @@ single-feature {
         padding: 10px !important;
     }
 
-    .cards-container {
-    }
     .service-card {
         height: 250px !important;
     }
-
     .service-card h4 {
-        font-size: 16px ;
+        font-size: 14px ;
     }
 
 }
@@ -80,23 +103,24 @@ single-feature {
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
     .why-choose-us {
-        padding: 12px 8px !important;
+        padding: 18px 16px !important;
     }
 
     .features-titles {
         flex-direction: column;
-        gap: 10px !important;
+        gap: 18px !important;
     }
 
     .features-titles h2 {
+        font-size: 18px;
         width: 100%;
     }
 
     .features-titles p {
         width: 100%;
-        padding: 10px !important;
         text-align: justify;
         line-height: 24px !important;
+        font-size: 13px
     }
 
     .features-cards {
@@ -111,13 +135,23 @@ single-feature {
     .single-feature {
         padding: 20px 10px !important;
     }
+
+    .single-feature p {
+        padding: 0px 16px !important;
+        font-size: 12px;
+        line-height: px;
+    }
+
+    .icon div {
+        font-size: 14px;
+    }
 }
 
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     .why-choose-us {
-        padding: 12px 8px !important;
+        padding: 18px 16px !important;
     }
 
     .features-titles {
@@ -133,7 +167,7 @@ single-feature {
         width: 100%;
         padding: 10px 0px !important;
         text-align: justify;
-        line-height: 24px !important;
+        line-height: 28px !important;
     }
 
     .features-cards {
@@ -148,7 +182,11 @@ single-feature {
 
     .single-feature {
         width: 90%;
-        padding: 25px 10px !important;
+        padding: 25px 30px !important;
+    }
+
+    .single-feature p {
+        line-height: 32px;
     }
 }
 
