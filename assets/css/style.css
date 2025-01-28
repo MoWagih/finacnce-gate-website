@@ -167,6 +167,7 @@ a {
     position: fixed;
     bottom: 18px;
     right: 44px;
+    display: none !important;
 }
 
 @media screen and (min-width: 320px) and (max-width: 500px) {
