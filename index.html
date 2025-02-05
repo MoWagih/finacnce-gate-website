@@ -1,194 +1,303 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>البوابة المالية</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="icon" href="/img/Fav.png" type="image/x-icon">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>البوابة المالية</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="./assets/css/global.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="icon" href="/img/Fav.png" type="image/x-icon">
+    </head>
 <body>
-<!-- temp link -->
-    
-   <main class="d-flex flex-column gap-3">
-    <nav class="d-flex justify-content-center rounded-bottom">
-        <div class="nav-container d-flex justify-content-between align-items-center">
-            <div class="logo col-3">
-                <a href="./index.html"><img src="./assets/img/Logo.png" alt="finance-gate-logo" class="w-100"></a>
-            </div>
-            <div class="links col-7 d-flex justify-content-center align-items-center">
-                <ul class="col-12 d-flex justify-content-between align-items-center list-unstyled text-white">
-                    <li><a href="./index.html">الصفحة الرئيسية</a></li>
-                    <li><a href="./pages/services.html">الخدمات</a></li>
-                    <li><a href="./pages/about-us.html">من نحن</a></li>
-                    <li><a href="./pages/Ask.html">تواصل معنا</a></li>
-                </ul>
-            </div>
-            <div class="burger-menu d-none" >
-                <img width="60%" src="./assets/img/Vector.png" alt="burger-menu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-               <!-- fuul -->
-               <div class="burger-menu-side offcanvas offcanvas-end pt-3 d-flex flex-column gap-3 text-white" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                
-                <div class="offcanvas-header d-flex justify-content-between p-3">
-                    <h5>القائمة الرئيسية</h5>
-                  <button type="button" class="border-0 bg-transparent" data-bs-dismiss="offcanvas" aria-label="Close"><img src="./assets/img/cancel.png"  alt="cancel-icon"></button>
+    <main class="d-flex flex-column gap-5">
+        <nav class="d-flex justify-content-center rounded-bottom">
+            <div class="nav-container d-flex justify-content-between align-items-center ps-5 pe-5">
+                <div class="logo col-3">
+                    <a href="./index.html"><img src="./assets/img/Logo.png" alt="finance-gate-logo" class="w-100"></a>
                 </div>
-               
-                <div class="offcanvas-body p-3 ">
-                    <ul class="col-12 d-flex flex-column gap-3 list-unstyled text-white">
-                        <li><a href="./index.html">الصفحة الرئيسية</a></li>
+                <div class="links col-6 p-3 rounded-2 justify-content-center align-items-center">
+                    <ul class="col-12 d-flex justify-content-between align-items-center list-unstyled text-white">
+                        <li><a href="./index.html" class="active">الصفحة الرئيسية</a></li>
                         <li><a href="./pages/services.html">الخدمات</a></li>
+                        <li><a href="./pages/our-blog.html">المدونة</a></li>
                         <li><a href="./pages/about-us.html">من نحن</a></li>
                         <li><a href="./pages/Ask.html">تواصل معنا</a></li>
                     </ul>
                 </div>
-              </div>
-           <!--  -->
-           
+                <div class="burger-menu d-none" >
+                    <img width="60%" src="./assets/img/Vector.png" alt="burger-menu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <!-- fuul -->
+                <div class="burger-menu-side offcanvas offcanvas-end pt-3 d-flex flex-column gap-3 text-white" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    
+                    <div class="offcanvas-header d-flex justify-content-between p-3">
+                        <h5>القائمة الرئيسية</h5>
+                    <button type="button" class="border-0 bg-transparent" data-bs-dismiss="offcanvas" aria-label="Close"><img src="./assets/img/cancel.png"  alt="cancel-icon"></button>
+                    </div>
+                
+                    <div class="offcanvas-body p-3 ">
+                        <ul class="col-12 d-flex flex-column gap-3 list-unstyled text-white">
+                            <li><a href="./index.html" class="active">الصفحة الرئيسية</a></li>
+                            <li><a href="./pages/services.html">الخدمات</a></li>
+                            <li><a href="./pages/about-us.html">من نحن</a></li>
+                            <li><a href="./pages/Ask.html">تواصل معنا</a></li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
             </div>
-        </div>
-    </nav>
-
-
-    <div class="section-one col-12 ps-0 pe-0 pt-5 pb-5 d-flex flex-column rounded">
-        <div class="titles-container col-7 p-5 d-flex justify-content-center">
-          <div class="titles d-flex flex-column col-12 gap-4 p-5 rounded text-white" >
-            <h1>خدماتك المحاسبية عن بعد</h1>
-            <p>خبراء في المجالات المالية، الإدارية، والاقتصادية، نقدم لك حلولًا واستشارات متخصصة تلبي احتياجات شركتك وفقًا لأحدث التنظيمات والمعايير العالمية. بقدرات تطورية عالية ودعم مستمر، نضمن لك إنجاز الأعمال بأداء راقٍ ومتطور. سواء كان العمل عن بُعد أو بشكل مباشر، نقدم لك خدمات تتجاوز التوقعات وتساهم في تحقيق أهدافك بكفاءة واحترافية.</p>
+        </nav>
+        <!-- first section -->
+        <div id="carouselExampleAutoplaying" class="carousel" data-bs-ride="carousel">
+            <div class="carousel-inner rounded">
+                <div class="carousel-item slide-one bg-black active" style="min-height: 450px;">
+                    <div class="titles-container col-7 p-5 d-flex justify-content-center">
+                        <div class="titles d-flex flex-column col-12 gap-4 p-5 rounded text-white" >
+                            <h1>مرحبًا بك في البوابة المالية</h1>
+                            <p>كل ما تحتاجه لإدارة أموالك واستثماراتك بفعالية مع أدوات مالية حديثة ودقيقة. نحن نقدم لك حلولًا مبتكرة تناسب احتياجاتك الخاصة في عالم المال والتجارة، حيث نضع بين يديك أفضل الأدوات التي تضمن لك التقدم المستدام</p>
+                            <div class="button p-2 col-3 text-center rounded"><a href="./pages/Ask.html">تواصل معنا</a></div>
+                        </div>
+                      </div>
+                </div>
+              <div class="carousel-item slide-two bg-black" style="min-height: 450px;">
+                <div class="titles-container col-7 p-5 d-flex justify-content-center">
+                    <div class="titles d-flex flex-column col-12 gap-4 p-5 rounded text-white" >
+                        <h1>استثمر بثقة</h1>
+                        <p>بياناتك وأموالك في أمان مع أحدث تقنيات الحماية والأمان الرقمي. نحن نولي أولوية قصوى لأمان معلوماتك، باستخدام بروتوكولات تشفير متقدمة لضمان حمايتك من أي تهديدات أو اختراقات.</p>
+                        <div class="button p-2 col-3 text-center rounded"><a href="./pages/Ask.html">تواصل معنا</a></div>
+                    </div>
+                  </div>
+            </div>
+              <div class="carousel-item slide-three bg-success" style="min-height: 450px;">
+                <div class="titles-container col-7 p-5 d-flex justify-content-center">
+                    <div class="titles d-flex flex-column col-12 gap-4 p-5 rounded text-white" >
+                        <h1>تحليلات دقيقة وقرارات أذكى</h1>
+                        <p>تابع الأسواق المالية ببيانات محدثة لحظة بلحظة، وتحليل شامل يساعدك في اتخاذ القرارات السليمة. بياناتنا موثوقة ودقيقة، مما يتيح لك اتخاذ قرارات مالية مدروسة ومبنية على أسس علمية وعملية</p>
+                        <div class="button p-2 col-3 text-center rounded"><a href="./pages/Ask.html">تواصل معنا</a></div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-        </div>
-    </div>
+        <!-- Second Section -->
 
-    <div class="contact-via-whatsapp d-flex justify-content-between text-white ps-2 pe-2 rounded">
-        <a href=" https://wa.me/1553179907?" target="_blank" class=" col-4 d-flex justify-content-center p-2">
-            <img width="90%" src="./assets/img/whatsapp.png" alt="online-chat">
-        </a>
-        <a href=" https://wa.me/1553179907?" class=" d-flex justify-content-center align-items-center"><p class=" d-flex align-items-center justify-content-center">تواصل عبر واتساب؟</p></a>
-    </div>
     
     
-    <div class="section-two col-12 rounded">
-        <div class="two-container col-12 ps-4 pe-4 d-flex justify-content-between align-items-center">
-            <div class="two-titles col-9">
-                <h2 class="pb-4 text-white">ما هي البوابة المالية؟</h2>
-                <p class="">نحن منصة متخصصة تقدم حلولًا واستشارات مبتكرة في المجالات المالية، الإدارية، والاقتصادية. نسعى لتمكين الشركات والمؤسسات من تحقيق أهدافها بكفاءة واحترافية من خلال خدمات متكاملة تلبي احتياجات السوق المتطورة. تعتمد منصتنا على فريق من الخبراء ذوي الخبرة الواسعة لضمان تقديم أداء استثنائي ودعم مستمر يعزز نمو أعمالك ويرتقي بمستوى إنجازاتك. مع "البوابة المالية"، تجد الشريك الأمثل لتحقيق النجاح بثقة واستدامة.</p>
+    <div class="section-two animate__animated animate__slideInRight col-12 p-2 pt-4 d-flex flex-column">
+        <!-- icon of section -->
+       <div class="icon p-3 d-flex justify-content-center align-items-center">
+       <img class="img-fluid" src="./assets/img/star.png" alt="">
+       </div>
+       <!-- content of section -->
+        <div class="two-container col-12 pt-4 d-flex justify-content-between">
+            <div class="two-titles d-flex flex-column gap-4 col-8">
+                <h2 class="pb-4 text-white">من نحن؟</h2>
+                <p>نحن في البوابة المالية نتميز بخبرة واسعة وفريق من المتخصصين، نلتزم بأعلى معايير الدقة والأمان في جميع خدماتنا، ونوفر حلولًا مالية متكاملة تلبي احتياجات عملائنا بمرونة وابتكار.</p>
+                <div class="vision-and-mssg col-12 d-flex justify-content-between gap-1">   
+                    <div class="our-vision special-card rounded p-3 text-white d-flex flex-column gap-4">
+                        <div class="icon d-flex justify-content-center align-items-center">
+                            <img class="img-fluid" src="./assets/img/vision (1).png" alt="vision-icon">
+                        </div>
+                        <h5>الرؤيـة</h5>
+                       <p>أن تصبح البوابة المالية المنصة الرائدة في تقديم الحلول المالية المتكاملة، من خلال الابتكار والجودة العالية، وأن تكون الخيار الأول للأفراد والشركات الباحثين عن خدمات مالية موثوقة ومتميزة في المنطقة.</p>
+                    </div>
+                    <div class="our-message special-card rounded p-3 text-white d-flex flex-column gap-4">
+                        <div class="icon d-flex justify-content-center align-items-center">
+                            <img class="img-fluid" src="./assets/img/red-flag.png" alt="flag-icon">
+                        </div>
+                        <h5>الرسالــة</h5>
+                        <p>تسعى البوابة المالية إلى تقديم خدمات مالية متميزة وعالية الجودة، مع التركيز على تلبية توقعات العملاء وتحقيق رضاهم. نلتزم بالابتكار والتميز في جميع حلولنا، ونحرص على بناء شراكات طويلة الأمد مع عملائنا من خلال الثقة والشفافية</p>
+                    </div>
+                </div>
             </div>
-            <div class="vertical-logo col-2">
-                <img class="img-fluid" src="./assets/img/Vertical.png" alt="vertical-logo">
-            </div>
-        </div>
-    </div>
-   
-    <!-- <div class="section-three col-12 ">
-        <h2 class="text-white">لماذا تختار البوابة المالية؟</h2>
-        <div class="features col-12 d-flex pt-5 pb-5">
-          
-            <div class="feature d-flex flex-column align-items-center p-4 col-3 gap-4">
-                <img class="col-4" src="./assets/img/expertise (1).png" alt="expertise">
-                <h5 class="col-12 text-center text-white">الخبرات المتنوعة</h5>
-                <p class="col-12 text-center">خبراء في المجالات المالية والإدارية والاقتصادية بخبرات كبيرة</p>
-            </div>
-
-            <div class="feature d-flex flex-column align-items-center p-4 col-3 gap-4">
-                <img class="col-4" src="./assets/img/interview.png" alt="interview">
-                <h5 class="col-12 text-center text-white">استشارات تناسب احتياجاتك</h5>
-                <p class="col-12 text-center"> حلول و استشارات تناسب احتياجات الشركات وفقاً للتنظيمات الحديثة</p>
-            </div>
-
-            <div class="feature d-flex flex-column align-items-center p-4 col-3 gap-4">
-                <img class="col-4" src="./assets/img/collaboration.png" alt="collaboration">
-                <h5 class="col-12 text-center text-white">تعاون مستمر</h5>
-                <p class="col-12 text-center">تعاون ودعم مستمر وخدمات تضمن انجاز الاعمال بأداء حديث ومتطور</p>
-            </div>
-
-            <div class="feature d-flex flex-column align-items-center p-4 col-3 gap-4">
-                <img class="col-4" src="./assets/img/knowledge.png" alt="knowledge">
-                <h5 class="col-12 text-center text-white">العمل عن بعد</h5>
-                <p class="col-12 text-center"> إمكانية العمل التعاوني عن بعد بنفس الأداء المباشر</p>
-            </div>
-            
-        </div>
-    </div> -->
-
-    <div class="section-four col-12 ">
-        <h2 class="text-white">خدماتنا</h2>
-        <div class="services col-12 d-flex justify-content-between">
-            <div class="main-service p-3 rounded d-flex flex-column justify-content-end align-items-start gap-3 service1">
-                <h4>استشارات مالية</h4>
-               <p>نقدم استشارات مالية متكاملة تشمل: إعداد الميزانيات بدقة، تقديم المشورة الاستثمارية، والتحليل المالي لدعم القرارات الاستراتيجية، بهدف بناء أساس مالي قوي يضمن استدامة ونجاح أعمالك</p>
-            </div>
-            <div class="main-service p-3 rounded d-flex flex-column justify-content-end align-items-start gap-3 service2">
-                <h4>استشارات ادارية</h4>
-                <p>نقدم استشارات إدارية متكاملة تشمل: إعداد وتحسين الهيكل التنظيمي، تطوير السياسات والإجراءات، وإدارة الموارد البشرية، لضمان كفاءة الأداء، تعزيز الإنتاجية، وبناء فرق عمل متميزة تقود شركتك نحو النجاح</p>
-            </div>
-            <div class="main-service p-3 rounded d-flex flex-column justify-content-end align-items-start gap-3 service3">
-                <h4>استشارات اقتصادية </h4>
-                <p>نقدم دراسات اقتصادية متكاملة تشمل: إعداد دراسات جدوى اقتصادية، تقييم المشاريع الجديدة، تحليل السوق، وتقدير التكاليف والعوائد، بهدف دعم قراراتك الاستثمارية</p>
-            </div>
-        </div>
-    </div>
-    
-    <div class="section-five col-12 d-flex flex-column gap-5">
-        <h2 class="text-white">نبذة عن المؤسس</h2>
-        <div class="founder col-12 d-flex justify-content-around align-items-center rounded p-4 gap-3 bg-dark">
-            <div class="founder-titles col-9 d-flex text-end flex-column gap-3">
-            <h2 class="text-white">أ. وجيــه بكــر</h2>
-                <p>خبير في الشؤون المالية بخبرة تمتد لأكثر من 30 عامًا في مجال التخطيط المالي وإدارة الاستثمارات. على مدى ثلاثة عقود، قدمت استشارات مالية عالية الجودة للأفراد والشركات، مع التركيز على تحقيق الأهداف المالية وزيادة الثروات. ملتزم بتوفير حلول مالية مخصصة تستند إلى فهم عميق لأهداف العملاء وتحدياتهم. أتميز بقدرتي على تحليل الأسواق المالية واتخاذ قرارات استراتيجية تؤدي إلى نتائج ملموسة</p>
-            </div>
-            <div class="founder-img col-2">
-                <img class="img-fluid rounded" src="./assets/img/founder.png" alt="founder">
-            </div>            
+                <div class="vertical-logo col-3 p-4 d-flex justify-content-center align-items-center">
+                    <img class="img-fluid" src="./assets/img/Vertical.png" alt="vertical-logo">
+                </div>
         </div>
     </div>
 
-    <div class="temp-links col-12 bg-danger d-flex justify-content-center gap-5 p-3">
-        <a href="./pages/pricing.html">pricing</a>
-        <a href="./pages/our-blog.html">Our Blog</a>
-        <a href="./pages/blog-single.html">Single Blog</a>
-        <a href="./pages/our-team.html">Our Team</a>
+<!-- section three start here -->
+    <div class="section-three col-12 d-flex flex-column gap-4 rounded p-4 pb-5">
+        <div class="icon p-3 d-flex justify-content-center align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve">  <g>    <path d="M9 16h10v2H9v-2Zm15-8.414V24H4v-4.682l2 2V22h16V9h-7V2H7c-.551 0-1 .448-1 1v2.189a6.026 6.026 0 0 0-2-.168V3c0-1.654 1.346-3 3-3h9.414L24 7.586ZM17 7h3.586L17 3.414V7Zm2 5h-8.583a5.953 5.953 0 0 1-.719 2h9.303v-2ZM2 19.49v-5.37A3.993 3.993 0 0 1 .5 11c0-2.206 1.794-4 4-4s4 1.794 4 4A3.993 3.993 0 0 1 7 14.12v5.37l-2.5-2.5-2.5 2.5ZM2.5 11c0 1.103.897 2 2 2s2-.897 2-2-.897-2-2-2-2 .897-2 2Z" fill="#ffffff" opacity="1" data-original="#000000"></path></g></svg>
+        </div>
+        <div class="three-container d-flex flex-column gap-3 text-white">
+            <h2>لماذا البوابة المالية؟</h2>
+            <p class="col-8">نحن في البوابة المالية نتميز بخبرة واسعة وفريق من المتخصصين المحترفين، نلتزم بأعلى معايير الدقة والأمان في جميع خدماتنا، ونقدم حلولًا مالية متكاملة تلبي احتياجات عملائنا بمرونة وابتكار</p>
+            <div class="features d-flex justify-content-between flex-wrap gap-3 p-3 rounded">
+                <div class="special-card p-4 rounded d-flex flex-column gap-3">
+                   <img src="./assets/img/expertise.png" class="icon col-1" alt="expertise-icon">
+                    <div class="feature-content d-flex flex-column gap-3">
+                        <h4>الخبرة والتميز</h4>
+                        <p>نحن في البوابة المالية نتميز بخبرة واسعة وفريق من المتخصصين المحترفين، نلتزم بأعلى معايير الدقة والأمان في جميع خدماتنا، ونقدم حلولًا مالية متكاملة تلبي احتياجات عملائنا بمرونة وابتكار</p>
+                </div>
+            </div>
+            <div class="special-card p-4 rounded d-flex flex-column gap-3">
+                <img src="./assets/img/quality-assurance.png" class="icon col-1" alt="quality-icon">
+                 <div class="feature-content d-flex flex-column gap-3">
+                     <h4>التزام بالجودة</h4>
+                     <p>نحن في البوابة المالية نتميز بخبرة واسعة وفريق من المتخصصين المحترفين، نلتزم بأعلى معايير الدقة والأمان في جميع خدماتنا، ونقدم حلولًا مالية متكاملة تلبي احتياجات عملائنا بمرونة وابتكار</p>
+             </div>
+         </div>
+            <div class="special-card p-4 rounded d-flex flex-column gap-3">
+                <img src="./assets/img/responsible.png" class="icon col-1" alt="fully-service-icon">
+                 <div class="feature-content d-flex flex-column gap-3">
+                     <h4>خدمات متكاملة</h4>
+                     <p>نحن في البوابة المالية نتميز بخبرة واسعة وفريق من المتخصصين المحترفين، نلتزم بأعلى معايير الدقة والأمان في جميع خدماتنا، ونقدم حلولًا مالية متكاملة تلبي احتياجات عملائنا بمرونة وابتكار</p>
+             </div>
+         </div>
+            <div class="special-card p-4 rounded d-flex flex-column gap-3">
+                <img src="./assets/img/customer-service.png" class="icon col-1" alt="support-icon">
+                 <div class="feature-content d-flex flex-column gap-3">
+                     <h4>الدعم الشامل</h4>
+                     <p>نحن في البوابة المالية نتميز بخبرة واسعة وفريق من المتخصصين المحترفين، نلتزم بأعلى معايير الدقة والأمان في جميع خدماتنا، ونقدم حلولًا مالية متكاملة تلبي احتياجات عملائنا بمرونة وابتكار</p>
+             </div>
+         </div>
+        </div>
+    </div>
+    </div>
+    <!-- section-three ends here -->
+
+    <!-- section-four starts here -->
+     <div class="section-four col-12 p-1 pt-3 d-flex flex-column align-items-center gap-4 text-white rounded">
+        <h2 class="pb-2">خدماتنــا</h2>
+        <p>حيث الابتكار يلتقي بالدقة، لنساعدك على تحقيق أهدافك المالية بأسلوب متميز واحترافية لا مثيل لها.</p>
+        <div class="services col-12 d-flex justify-content-between p-5 rounded">
+            <div class="services-section-one col-4 d-flex flex-column gap-3 p-3 rounded">
+                <img src="./assets/img/business-and-finance (1).png" alt="business-and-finance" class="icon">
+                <div
+            class="services-section rounded col-12 text-center p-3">
+                <h5 class="pb-3">الاستشارات المالية</h5>
+                <p>استشارات مالية متكاملة تشمل : </p>
+            </div>
+            <div class="single-service p-3 rounded text-center d-flex flex-column">
+                <a href="./pages/single-service.html"><p>إعداد الميزانيات بدقة</p></a>
+            </div>
+            <div class="single-service p-3 rounded text-center d-flex flex-column">
+                <a href="./pages/single-service.html"><p>تقديم المشورة الإستثمارية</p></a>
+            </div>
+            <div class="single-service p-3 rounded text-center d-flex flex-column">
+                <a href="./pages/single-service.html"><p>التحليل المالي</p></a>
+            </div>
+        </div>
+
+        <!-- services-section-two -->
+        <div class="services-section-one col-4 d-flex flex-column gap-3 p-3 rounded">
+            <img src="./assets/img/team (1).png" alt="team-icon" class="icon">
+            <div
+        class="services-section rounded col-12 text-center p-3">
+            <h5 class="pb-3">الاستشارات الإدارية</h5>
+            <p>استشارات إدارية متكاملة تشمل : </p>
+        </div>
+        <div class="single-service p-3 rounded text-center d-flex flex-column">
+            <a href="./pages/single-service.html"><p>إعداد وتحسين الهيكل التنظيمي</p></a>
+        </div>
+        <div class="single-service p-3 rounded text-center d-flex flex-column">
+            <a href="./pages/single-service.html"><p>تطوير السياسات والإجراءات</p></a>
+        </div>
+        <div class="single-service p-3 rounded text-center d-flex flex-column">
+            <a href="./pages/single-service.html"><p> إدارة الموارد البشرية</p></a>
+        </div>
     </div>
 
-    <footer class="col-12 d-flex flex-column gap-2 pt-2 pb-2 text-white rounded-top">
-      
-        <div class="footer-top col-12 d-flex justify-content-between p-4">
+     <!-- services-section-three -->
+     <div class="services-section-one col-4 d-flex flex-column gap-3 p-3 rounded">
+        <img src="./assets/img/cash-on-delivery.png" alt="tarding-icon" class="icon">
+        <div
+    class="services-section rounded col-12 text-center p-3">
+        <h5 class="pb-3">الاستشارات الإستثمارية</h5>
+        <p> دراسات إدارية متكاملة تشمل : </p>
+    </div>
+    <div class="single-service p-3 rounded text-center d-flex flex-column">
+        <a href="./pages/single-service.html"><p>إعداد الميزانيات بدقة</p></a>
+    </div>
+    <div class="single-service p-3 rounded text-center d-flex flex-column">
+        <a href="./pages/single-service.html"><p>تقديم المشورة الإستثمارية</p></a>
+    </div>
+    <div class="single-service p-3 rounded text-center d-flex flex-column">
+        <a href="./pages/single-service.html"><p>التحليل المالي</p></a>
+    </div>
+</div>
+        </div>
+     </div>
+     <!-- section-four ends here -->
+
+   <!-- section five starts here -->
+    <div class="section-five col-12 d-flex justify-content-evenly pt-5 pb-5 rounded">
+        <div class="section-five-right col-6 p-3 text-white">
+            <h2 class="pb-4 display-6 fw-bold">لديك سؤال أو استفسار؟</h2>
+            <p>فريقنا جاهز للرد عليك في أي وقت، لا تتردد في التواصل معنا!</p>
+        </div>
+        <div class="section-five-left col-4 d-flex justify-content-center align-items-center">
+            <button class="button border-0 ps-4 pe-4 p-3 text-white bg-success"><a href="./pages/Ask.html">تواصل معنا</a></button>
+        </div>
+    </div>
+    <!-- section five ends here -->
+
+    <div class="section-six col-12 d-flex justify-content-between align-items-center p-5">
+        <div class="qoute">
+            <div class="qoute p-2">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><g data-name="01 align center"><path d="M0 8v6h7.91A6.006 6.006 0 0 1 2 19v2a8.009 8.009 0 0 0 8-8V4H4a4 4 0 0 0-4 4ZM18 4a4 4 0 0 0-4 4v6h7.91A6.006 6.006 0 0 1 16 19v2a8.009 8.009 0 0 0 8-8V4Z" fill="#ffffff" opacity="1" data-original="#000000"></path></g></g></svg>
+                </span>
+                <h2 class="display-4 fw-medium pb-5">بثقتكم نبني جسور النجاح</h2>
+                <p class="pb-4 text-white">حيث نجمع بين الخبرة والابتكار لنقدم حلولًا مالية متكاملة تضمن لكم الأمان والاستقرار. رؤيتنا قائمة على الشفافية والدقة، لنساعدكم على تحقيق أهدافكم بثقة واطمئنان."</p>
+                <p>وجيــه بكــر، المؤسس والمدير التنفيذي للبوابة المالية</p>
+            </div>
+        </div>
+        <div class="author col-3 d-flex justify-content-center align-items-center">
+            <img class="img-fluid" src="./assets/img/founder-home.png" alt="founder">
+        </div>
+    </div>
+
+    <footer class="col-12 d-flex flex-column align-items-center pt-3 text-white rounded-top">
+        <div class="footer-top col-12 d-flex justify-content-between p-4 ps-5 pe-5">
             <div class="footer-logo d-flex flex-column gap-3 col-3">
                 <img class="img-fluid footer-img"  src="./assets/img/Logo.png" alt="footer-logo">
                 <p>منصة متخصصة تقدم حلولًا واستشارات مبتكرة في المجالات المالية، الإدارية، والاقتصادية</p>
             </div>
-           
-            <div class="list col-3 list-one">
+            <div class="list pt-3 col-3 list-one">
                 <ul class="list-unstyled d-flex flex-column gap-4 ">عن البوابة المالية
-                   <li><a href="./pages/about-us.html>من نحن</a></li>
-                   <li><a href="#">التدريب والتوظيف</a></li>
-                   <li><a href="#">المزايا</a></li>
+                   <li><a href="./pages/about-us.html">من نحن</a></li>
+                   <li><a href="./index.html">الصفحة الرئيسية</a></li>
+                   <li><a href="./pages/our-blog.html">المدونة</a></li>
+                   <li><a href="./pages/services.html">الخدمات</a></li>
+                   <li><a href="./pages/pricing.html">الباقات</a></li>
                 </ul>
             </div>
-          
-            <div class="list col-3 list-two">
+            <div class="list pt-3 col-3 list-two">
                 <ul class="list-unstyled d-flex flex-column gap-4">المعلومات
-                    <li><a href="#">الخدمات</a></li>
-                    <li><a href="#">تواصل معنا</a></li>
+                    <li><a href="./pages/about-us.html">من نحن</a></li>
+                    <li><a href="./pages/Ask.html">تواصل معنا</a></li>
                 </ul>
             </div>
         </div>
-       
-        <div class="footer-bottom col-12 d-flex flex-column align-items-center justify-content-center p-4 gap-3">
+        <div class="footer-bottom col-12 p-4 d-flex flex-column align-items-center justify-content-center gap-4">
             <div class="social-links d-flex gap-5">
                 <a href="#"><img width="89%" src="./assets/img/facebook (2).png" alt="facbook-icon"></a>
                 <a href="#"><img width="89%" src="./assets/img/twitter.png" alt="twitter-icon"></a>
                 <a href="#"><img width="89%" src="./assets/img/linkedin-logo.png" alt="linkedin-logo"></a>
                 <a href="#"><img width="89%" src="./assets/img/instagram.png" alt="instagram-icon"></a>
             </div>
-            <div class="rights d-flex">
+            <div class="rights d-flex gap-2 align-items-center">
                 <p>جميع الحقوق محفوظة للمنصة المالية</p>
-                <img class="img-fluid" src="./assets/img/copyright 1 (1).png" alt="copyright">
-                <p>2025</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
+                    <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512"/>
+                  </svg>
+                  <p>2025</p>
             </div>
         </div>
     </footer>
    </main>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-   <script src="./index.js"></script>
 </body>
 </html>
