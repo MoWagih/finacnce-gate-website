@@ -431,6 +431,8 @@
         padding: 10px !important;
         padding-top: 50px !important;
         border-radius: 0% !important;
+        background-size: cover !important;
+        background-position: center !important;
     }
 
     .section-four p {
