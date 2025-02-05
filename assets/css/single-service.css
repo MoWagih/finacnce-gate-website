@@ -2,8 +2,19 @@
 .tags {
     background-color: rgb(31, 31, 31);
     position: sticky;
-    top: 25px !important;
+    top: 100px !important;
     box-shadow: 0px 4px 37px 0px #00000026;
+}
+
+.tags h3 {
+    color:  rgba(41,178,70,1);        
+}
+
+.tags:hover {
+    background-color: rgba(15, 15, 15, 0.411);
+    border: 0.5px solid  rgba(41,178,70,1);
+    box-shadow: 0px 4px 37px 0px #00000026;
+    transition: all 500ms ease-in-out;
 }
 
 .service-img {
@@ -13,30 +24,42 @@
 .service-content {
     background-color: rgb(31, 31, 31);
     box-shadow: 0px 4px 37px 0px #00000026;
+    text-align: justify;
+    line-height: 28px;
 }
 
-
 .service-content h2 {
-    color: rgb(5, 175, 5);        
+    color:  rgba(41,178,70,1);        
+}
+
+.service-content p {
+    line-height: 32px;
+}
+
+.service-content:hover {
+    background-color: rgba(15, 15, 15, 0.411);
+    border: 0.5px solid  rgba(41,178,70,1);
+    box-shadow: 0px 4px 37px 0px #00000026;
+    transition: all 500ms ease-in-out;
 }
 
 .service-tag {
-    background: rgb(12,136,7);
-    background: linear-gradient(9deg, rgba(12,136,7,1) 0%, rgba(0,212,39,1) 100%);
+    background-color: rgba(0, 0, 0, 0.575);
 }
 
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
-    
-    .meta {
-        font-size: 13px;
-        flex-wrap: wrap;
-        justify-content: center;
+    main {
+        padding-top: 84px !important;
     }
-    
-    
+
+    .service-header {
+        border-radius: 0% !important;
+    }
+     
     .service-container {
         flex-direction: column;
-        width: 100%;
+        width: 95%;
         padding: 0 !important;
         align-items: center;
     }
@@ -44,7 +67,7 @@
     .right-side {
         width: 100%;
         padding: 0 !important;
-        gap: 20px !important;
+        gap: 16px !important;
     }
 
     .service-img {
@@ -53,6 +76,7 @@
 
     .service-content {
         text-align: justify;
+        gap: 8px !important;
         padding: 22px 10px !important;
     }
 
@@ -61,57 +85,50 @@
     }
 
     .service-content p {
-        line-height: 24px !important;
+        line-height: 28px !important;
         font-size: 13px;
     }
 
     .left-side {
-        display: none !important;
-       
+      display: none !important;   
     }
 
-    .footer-top {
-        padding: 14px !important;
-    }
-
-    .footer-top p {
-        font-size: 12px;
-    }
-
-    .list ul li a {
-        font-size: 12px !important
-    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+
+    main {
+        padding-top: 124px !important;
+    }
+
+    .service-header {
+        border-radius: 0% !important;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
     .service-container {
-        flex-direction: column;
-        width: 100%;
-        padding: 0 !important;
-        align-items: center;
+        width: 95%;
     }
 
     .right-side {
-        padding: 0px !important;
-        width: 100%;
-    }
-
-    .service-img {
-        height: auto !important;
+        width: 60%;
+        gap: 20px !important;
     }
 
     .service-content {
-        text-align: justify;
-        padding: 32px 5px 0px !important;
-        font-size: 16px;
-    }
-
-    .service-content p {
-        line-height: 28px;
+        gap: 10px !important;
     }
 
     .left-side {
-        display: none !important;
+        width: 40%;
+    }
+
+    .tags {
+        position: static;
+        top: 200px;
     }
 
 }

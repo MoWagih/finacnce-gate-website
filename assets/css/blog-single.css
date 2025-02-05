@@ -1,72 +1,90 @@
+
+.article-container:hover {
+    background-color: rgba(15, 15, 15, 0.411);
+    border: 0.5px solid  rgba(41,178,70,1);
+    box-shadow: 0px 4px 37px 0px #00000026;
+    transition: all 500ms ease-in-out;
+}
+
+.article-content h3,
+h4,
+h5 {
+    color:  rgba(41,178,70,1);
+}
+
+.article-content p {
+    text-align: justify;
+    line-height: 28px;
+}
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
-   .service-header {
-    padding: 0px !important;
-   }
-   
-    .article-container {
-        padding: 0 !important;
-        padding-top: 20px !important;
+    main {
+        padding-top: 84px !important;
     }
 
-    .article-img {
-        width: 100%;
-        padding: 0rem !important;
-        background-color: transparent !important;
+    .service-header {
+        border-radius: 0% !important;
+    }
+
+    .article-container {
+        width: 95%;
+        padding: 5px !important;
+    }
+
+    .article-img img {
+        width: 95%;
     }
 
     .article-content {
         width: 100%;
-        text-align: justify;
     }
 
-    .qoute {
-        width: 100% !important;
+    .article-content p {
+        font-size: 13px;
     }
 
-    .article-meta {
-        width: 100%;
-        padding: 0px !important;
-        flex-direction: column;
-        gap: 10px !important;
-        background-color: orangered !important;
+    .article-content h3 {
+        font-size: 18px;
+        line-height: 32px;
     }
 
-    .tags {
-        width: 100%;
-        background-color: red !important;
-
+    .article-content h5 {
+        font-size: 16px;
     }
-
-    .to-share {
-        width: 100%;
-        gap: 5px !important;
-        padding: 20px 0px !important ;
-x    }
-
-    .to-share img {
-        width: 80%;
-        padding : 4px !important;
-    }    
 }
-
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    .article-container {
-        gap: 32px !important;
+    main {
+        padding-top: 124px !important;
     }
 
-    .article-img {
-        width: 70%;
-        padding: 0px !important;
+    .service-header {
+        border-radius: 0% !important;
+    }
+
+    
+    .article-container {
+        width: 95%;
+        padding: 30px 5px !important;
+    }
+
+    
+    .article-img img {
+        width: 80%;
     }
 
     .article-content {
-        width: 100%;
+        padding: 0px !important;
     }
 
-    .qoute {
-        width: 100% !important;
+    .article-content h3 {
+        font-size: 22px;
+        line-height: 32px;
     }
 
 }
+
+
+
+
 
