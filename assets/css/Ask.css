@@ -1,36 +1,45 @@
-.service-header {
-    background-image: url(../img/service-header.jpg);
-    background-position: center;
-    background-size: cover;
-    box-shadow: 0px 4px 37px 0px #00000026;
+
+
+.form-container {
+    padding-top: 50px !important;
 }
 
+.form-titles p {
+    line-height: 32px;
+}
 
-.headers-title h1 {
+.form-titles h2 {
     background: linear-gradient(112deg, rgba(41,178,70,1) 0%, rgba(46,222,84,1) 100%);
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
 }
+
+
+.form-titles p {
+    text-align: justify;
+}
+
 
 form {
     background-color: rgb(36, 36, 36);
 }
 
-.form h2 {
-    background: linear-gradient(112deg, rgba(41,178,70,1) 0%, rgba(46,222,84,1) 100%);
-    -webkit-background-clip: text; 
-    -webkit-text-fill-color: transparent;
-}
-
-.form p {
-    text-align: justify;
-}
-
 input,
 textarea {
+    width: 49%;
     background-color: rgb(63, 63, 63);
     outline: none;
     accent-color: green;
+}
+
+input:hover {
+    background-color: rgb(161, 161, 161);
+    border: 1px solid green !important;
+}
+
+textarea:hover {
+    background-color: rgb(161, 161, 161);
+    border: 1px solid green !important;
 }
 
 label {
@@ -44,22 +53,41 @@ label {
 ::placeholder {
     color: rgb(214, 214, 214);
     opacity: 1; /* Firefox */
+    font-weight: 300;
   }
 
-  @media screen and (max-width: 767px) {
-    .form {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    main {
+        padding-top: 84px !important;
+    }
+
+    .service-header {
+        border-radius: 0% !important;
+    }
+
+    .form-container {
         flex-direction: column;
-        gap: 30px !important;
-        padding: 10px !important;
+        width: 100%;
+        padding: 0px !important;
+        gap: 20px !important;
     }
 
     .form-titles {
         width: 100%;
-        gap: 28px !important;
+        gap: 0.8rem !important;
+        padding: 14px !important;
+    }
+
+    .form-titles h2 {
+        font-size: 22px;
     }
 
     .form-titles p {
-        width: 100%;
+        line-height: 27px;
+    }
+
+    .form-titles p {
+        font-size: 13px;
     }
 
     form {
@@ -68,57 +96,59 @@ label {
 
     .name-input {
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 20px !important;
     }
 
-    .name-input input {
-        width: 100%;
+    input {
+        width:100% !important;
     }
 
-    .ask-type {
-        flex-wrap: wrap;
-        width: 100% !important;
-    }
-
-    .check-box {
-        width: 50%;
-    }
-    
+    ::placeholder {
+        color: rgb(214, 214, 214);
+        opacity: 1; /* Firefox */
+        font-weight: 300;
+        font-size: 13px;
   }
+  
+}
 
-  @media screen and (min-width: 768px) and (max-width: 992px) {
-    .form {
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    main {
+        padding-top: 124px !important;
+    }
+
+    .service-header {
+        border-radius: 0% !important;
+    }
+
+    .form-container {
         flex-direction: column;
-        gap: 30px !important;
-        padding: 10px !important;
+        width: 100%;
+        padding: 14px !important;
+        gap: 20px !important;
     }
 
     .form-titles {
         width: 100%;
-        gap: 28px !important;
+        gap: 1.2rem !important;
+        padding: 14px !important;
     }
 
-    .form-titles p {
-        width: 100%;
-    }
-
+    
     form {
         width: 100% !important;
     }
 
     .name-input {
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 20px !important;
     }
 
-    .name-input input {
-        width: 100%;
+    input {
+        width:100% !important;
     }
 
-    .ask-type {
-        flex-wrap: wrap;
-        width: 100% !important;
-    }
-    
-  }
+}
+
+
 

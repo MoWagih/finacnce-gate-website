@@ -7,6 +7,7 @@
     <title>تواصل معنا</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/global.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/Ask.css">
 </head>
 <body>
@@ -60,51 +61,34 @@
             </div>
           </div>
           
-          <div class="form col-12 d-flex p-5">
-            <div class="form-titles col-5 d-flex flex-column gap-4 text-white">
-                <h2 class="display-2">عندك سؤال؟</h2>
-                 <p class="col-10 lh-lg">لا تتردد في التواصل معنا!
-                نحن هنا لخدمتك والإجابة عن جميع استفساراتك بكل احترافية وسرعة. سواء كنت بحاجة إلى استشارة، معلومات إضافية، أو دعم في اتخاذ قراراتك، فريقنا مستعد دائمًا لمساعدتك. املأ النموذج أدناه وسنكون على تواصل معك في أقرب وقت. رضاك هو أولويتنا!</p>
-                <div class="phone d-flex align-items-center gap-3">
-                    <img class="col-1" src="../assets/img/phone-icon.png" alt="phone-icon">
-                    <p>+</p>
+          <div class="form-container col-12 d-flex justify-content-between ps-2 pe-2 rounded">
+           
+            <div class="form-titles col-5 p-3 d-flex flex-column gap-4 text-white">
+                <h2 class="display-4 fw-medium">عندك استفسار ؟</h2>
+                <p>يسعدنا الإجابة على جميع استفساراتك وتقديم الدعم الذي تحتاجه. يرجى ملء النموذج أدناه ببياناتك ورسالتك، وسيتواصل معك فريقنا في أقرب وقت ممكن لتزويدك بالمعلومات التي تبحث عنها.</p>
+                <div class="mini-title gap-3 d-flex align-items-center">
+                    <img class="icon" src="../assets/img/mail.png" alt="mail-icon">
+                    <p>financeGateWebsite@gmail.com</p>
                 </div>
-                <div class="email d-flex align-items-center gap-3">
-                    <img class="col-1" src="../assets/img/email-icon.png" alt="email-icon">
-                    <p>@.</p>
+                <div class="mini-title gap-3 d-flex align-items-center">
+                    <img class="icon" src="../assets/img/phone-call.png" alt="phone-icon">
+                    <p>+201030405060</p>
                 </div>
-                <!-- <div class="whatsapp d-flex align-items-center gap-3">
-                    <img class="col-1" src="./img/whatsapp.png" alt="whatsapp-icon">
-                    <a href="">تواصل عبر الواتساب</a>
-                </div> -->
+                <div class="mini-title gap-3 d-flex align-items-center">
+                    <img class="icon" src="../assets/img/whatsapp.png" alt="whatsapp">
+                    <!-- do not forget to add number here -->
+                    <a href="https://wa.me/1XXXXXXXXXX"><p>تواصل عبر واتساب</p></a>
+                </div>
             </div>
            
            
-            <form class="col-7 ps-4 pe-4 pt-3 pb-3 rounded d-flex flex-column gap-4" action="#">
+            <form class="col-6 ps-4 pe-4 pt-3 pb-3 rounded d-flex flex-column gap-4" action="#">
                 <div class="name-input col-12 d-flex justify-content-between">
-                    <input class="col-5 border-0 p-2 rounded" type="text" placeholder="الأسم الأول" required>
-                    <input class="col-5 border-0 p-2 rounded" type="text" placeholder="الأسم الأخير" required>
+                    <input class="border-0 p-2 rounded" type="text" placeholder="الأسم الأول" required>
+                    <input class="border-0 p-2 rounded" type="text" placeholder="الأسم الأخير" required>
                 </div>
                 <input class="col-12 border-0 rounded p-2" type="email" placeholder="البريد الإلكتروني" required>
                 <input class="col-12 border-0 rounded p-2" type="tel" placeholder="رقم التليفون ( اختياري )">
-                <div class="ask-type text-white col-12 d-flex justify-content-around gap-3">
-                   <div class="check-box">
-                    <input  type="checkbox" name="main-topic" id="finance-one">
-                    <label for="finance-one">استشارة مالية</label>
-                   </div>
-                   <div class="check-box">
-                    <input  type="checkbox" name="main-topic" id="finance-two">
-                    <label for="finance-two">استشارة اقتصادية</label>
-                   </div>
-                   <div class="check-box>
-                    <input  type="checkbox" name="main-topic" id="finance-two">
-                    <label for="finance-two">استشارة اقتصادية</label>
-                    </div>
-                   <div class="check4 col-3">
-                    <input  type="checkbox" name="main-topic" id="finance-four">
-                    <label for="finance-four">استشارة استثمارية</label>
-                   </div>
-                </div>
                 <input class="col-12 border-0 rounded p-2" type="tel" placeholder="اسم الشركة/ المؤسسة (  اختياري )">
                 <textarea class="col-12 border-0 rounded p-2" rows="10" name="message" id="#" placeholder="رسالتك" required></textarea>
                 <button class="d-block border-0 ps-5 pe-5 pt-2 pb-2 rounded bg-success text-white" type="submit">ارسال</button>
